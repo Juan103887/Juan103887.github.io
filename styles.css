@@ -16,6 +16,8 @@ body{
     align-items: center;
 }
 
+/*HEADER*/
+
 header{
     display: flex;
     background-color: #df5050;
@@ -38,6 +40,8 @@ header a:hover{
     color: white;
     transform: scale(1.1);
 }
+
+/*menu hamburguesa*/
 
 .burger{
     display: flex;
@@ -147,7 +151,7 @@ header a:hover{
     position: absolute;
 }
 
-
+/*COMIDAS*/
 
 .comida {
     display: flex;
@@ -159,6 +163,8 @@ header a:hover{
 .comida button{
     cursor: pointer;
 }
+
+/*CHURROS*/
 
 .churros{
     display: flex;
@@ -198,6 +204,8 @@ header a:hover{
     background-color: orange;
 }
 
+/*PANCAKES*/
+
 .pancakes{
     display: flex;
     width: 500px;
@@ -229,6 +237,8 @@ header a:hover{
     border: 2px solid black;
     background-color: chocolate;
 }
+
+/*WAFFLES*/
 
 .waffles{
     display: flex;
@@ -262,12 +272,16 @@ header a:hover{
     background-color: rgb(139, 88, 36);
 }
 
+/*BEBIDAS*/
+
 .bebidas{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
 }
+
+/*COCA COLA*/
 
 .bebidas_coca{
     display: flex;
@@ -288,6 +302,8 @@ header a:hover{
     font-size: 24px;
 }
 
+/*LIMONADA COCO*/
+
 .bebidas_limoncoco{
     display: flex;
     width: 500px;
@@ -307,6 +323,8 @@ header a:hover{
     font-size: 24px;
     margin-bottom: 25px;
 }
+
+/*VOLVER ARRIBA*/
 
 .volver{
     display: flex;
@@ -339,4 +357,141 @@ header a:hover{
 .menu.active{
     display: flex;
     flex-direction: column;
+}
+
+/*POPOVERS*/
+
+
+
+/*POPOVER DE CHURROS*/
+
+#churros-popover{
+    height: max-content;
+    width: 300px;
+    font-size: 15px;
+    background-color: #D29B53;
+}
+
+#churros-popover img{
+    margin-top: 20px;
+}
+
+#churros-popover button{
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border: none;
+    background-color: brown;
+    border-radius: 20px;
+    color:white;
+}
+
+#churros-popover_2{
+    background-color: greenyellow;
+    color: green;
+}
+
+/*POPOVER DE PANCAKES*/
+
+#pancakes-popover{
+    background-color: #FFFDD0;
+    font-size: 15px;
+}
+
+#pancakes-popover img{
+    margin-top: 20px;
+}
+
+#pancakes-popover button{
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border: none;
+    background-color: chocolate;
+    border-radius: 20px;
+    color:white;
+}
+
+#pancakes-popover_2{
+    background-color: greenyellow;
+    color: green;
+}
+
+/*POPOVER DE WAFFLES*/
+
+#waffles_popover{
+    background-color: #F5DEB3;
+    font-size: 15px;
+}
+
+#waffles_popover img{
+    margin-top: 20px;
+}
+
+#waffles_popover button{
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border: none;
+    background-color: rgb(139, 88, 36);
+    border-radius: 20px;
+    color:white;
+}
+
+#waffles_popover_2{
+    background-color: greenyellow;
+    color: green;
+}
+
+/*popover de coca cola*/
+
+#coca_popover{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: solid black;
+}
+
+#coca_popover img{
+    height: 250px;
+    margin-top: 20px;
+}
+
+#coca_popover button{
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    color:black;
+}
+
+#coca_popover_2{
+    background-color: greenyellow;
+    color: green;
+}
+
+/*limonada de coco*/
+
+#limonada_popover{
+    background-color: white;
+    color: rgb(38, 255, 0);
+    font-size: 15px;
+    border: solid white;
+}
+
+#limonada_popover img{
+    height: 280px;
+    margin-top: 20px;
+}
+
+#limonada_popover button{
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border: none;
+    background-color: rgb(38, 255, 0);
+    border-radius: 20px;
+    color:white;
+}
+
+#limonada_popover_2{
+    background-color: greenyellow;
+    color: green;
 }
